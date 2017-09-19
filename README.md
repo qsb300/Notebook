@@ -20,4 +20,4 @@
 
 ## Plot
 [Gnuplot](Plot/Gnuplot/README.md)
-[Matplotlib](Plot/Matplotlib/README.md)
+[Matplotlib](Lang/Python/Matplotlib/README.md)
