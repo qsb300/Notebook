@@ -20,3 +20,6 @@
 ## Images
     docker images -a
     docker images --tree
+    
+## References
+[Use the Docker command line](http://docs.docker.com/engine/reference/commandline/cli/)
