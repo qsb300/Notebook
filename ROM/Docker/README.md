@@ -21,5 +21,11 @@
     docker images -a
     docker images --tree
     
+## [Undocker](https://github.com/larsks/undocker)
+    cat proj.tar |undocker -i -d proj
+    docker save proj:mod|undocker -i -o prom_mod
+[Unpacking Docker images with Undocker](http://blog.oddbit.com/2015/02/13/unpacking-docker-images/)
+    
 ## References
 [Use the Docker command line](http://docs.docker.com/engine/reference/commandline/cli/)
+
