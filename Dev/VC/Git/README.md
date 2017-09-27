@@ -15,3 +15,13 @@
     git reset HEAD~
 
     git mv Plot/Matplotlib Lang/Python
+
+    git pull
+
+## [Branching and Merging](http://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+    #git checkout -b side
+    git branch side
+    git checkout side
+    #  
+    git checkout master
+    git mergy side
