@@ -5,6 +5,9 @@
     docker run -p 8080:80 -t -i -d --name proj proj:latest
     docker stop --time=1 proj
     #docker rm promate
+
+The -v flag allows us to mount a directory from the host into the container
+    docker run -p 8080:80 -d -v proj:/var/www/html htmlnew
    
 ## Save
     docker ps
