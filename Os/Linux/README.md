@@ -2,10 +2,22 @@
 
 ## find
     find . -type f -printf '%p\n'
+instead of chmod -R 755 drt, the safer way to use chmod is to set only directory executable. Drop "-c" for quiet.
+    # find all sub directories and make each executable
+    find drt -type d -exec chmod -c 0755 {} +
+    # files only readable
+    find drt -type f -exec chmod -c 0644 {} +
 
 ## date
     t=`date`
     date -d"$t" +%Y%m%d:%H:%M:%S
+
+## du
+    #space usage of current directory
+    du -sh
+    #space usage of each sub directory
+    du -h --max-depth=1
+    
 
 ## kiosk
 #### chrome kiosk mode
