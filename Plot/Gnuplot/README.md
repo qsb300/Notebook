@@ -12,3 +12,7 @@
     set xtic 50,10,100
 
     unset key
+    
+    
+## [Syntax for postscript enhanced option](http://ayapin-film.sakura.ne.jp/Gnuplot/Docs/ps_guide.pdf)
+    Use @ to align sub- and superscripts: ’x@^2_k’
