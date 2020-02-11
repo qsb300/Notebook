@@ -32,3 +32,11 @@ block Alt
     xmodmap -e "keycode 64 = "
     xmodmap -e "keycode 108 = "
 [Disable shortcuts in Google Chrome](http://stackoverflow.com/questions/5637530/disable-shortcuts-in-google-chrome)
+
+## SeLinux
+#### audit2allow
+    audit2allow -w -a
+    audit2allow -a
+    grep certwatch /var/log/audit/audit.log | audit2allow -M mycertwatch2
+    semodule -i mycertwatch2.pp
+[ALLOWING ACCESS](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-fixing_problems-allowing_access_audit2allow)
