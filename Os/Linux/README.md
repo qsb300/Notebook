@@ -40,3 +40,8 @@ block Alt
     grep certwatch /var/log/audit/audit.log | audit2allow -M mycertwatch2
     semodule -i mycertwatch2.pp
 [ALLOWING ACCESS](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-fixing_problems-allowing_access_audit2allow)
+
+## Wifi
+###restore interface name to wlan0, 3=DEAUTH_LEAVING
+    ln -s /dev/null /etc/systemd/network/99-default.link
+
