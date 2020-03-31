@@ -44,4 +44,5 @@ block Alt
 ## Wifi
 ###restore interface name to wlan0, 3=DEAUTH_LEAVING
     ln -s /dev/null /etc/systemd/network/99-default.link
+    [Network Device Naming](http://www.linuxfromscratch.org/lfs/view/9.1-systemd-rc1/chapter07/network.html)
 
