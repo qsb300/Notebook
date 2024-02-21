@@ -42,7 +42,7 @@ block Alt
 [ALLOWING ACCESS](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/6/html/security-enhanced_linux/sect-security-enhanced_linux-fixing_problems-allowing_access_audit2allow)
 
 ## Wifi
-###restore interface name to wlan0, 3=DEAUTH_LEAVING
+### restore interface name to wlan0, 3=DEAUTH_LEAVING
     ln -s /dev/null /etc/systemd/network/99-default.link
-    [Network Device Naming](http://www.linuxfromscratch.org/lfs/view/9.1-systemd-rc1/chapter07/network.html)
+[Network Device Naming](http://www.linuxfromscratch.org/lfs/view/9.1-systemd-rc1/chapter07/network.html)
 
