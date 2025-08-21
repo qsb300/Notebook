@@ -29,3 +29,27 @@
     #  
     git checkout master
     git mergy side
+
+## [Workflow](https://www.youtube.com/watch?v=uj8hjLyEBmU)
+    
+    git clone --depth 1 
+    git checkout -b my-feature
+    # edit
+    git diff
+    git add
+    git commit
+    git push origin my-feature
+    
+    git checkout main
+    git pull origin master
+    git checkout my-feature
+    git rebase main
+    git push -f origin my-feature
+    
+    #pull request on github
+    #squash and merge  on github
+    #delete branch my-feature on github
+    git checkout main
+    git branch -D my-feature
+    git pull origin master
+    
