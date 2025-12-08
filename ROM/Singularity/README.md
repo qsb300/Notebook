@@ -8,7 +8,7 @@
     singularity build lolcow2 lolcow_sandbox/ # converts from sandbox to container
 
 
-## [install unprivileged Apptainer](https://hsf-training.github.io/hsf-training-singularity-webpage/setup.html)
+[install unprivileged Apptainer](https://hsf-training.github.io/hsf-training-singularity-webpage/setup.html)
 
     curl -s https://raw.githubusercontent.com/apptainer/apptainer/main/tools/install-unprivileged.sh | \
      bash -s - INSTALL_DIR
