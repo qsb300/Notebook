@@ -17,5 +17,5 @@ pip download --no-binary=:all: --no-deps packagename
 export UV_PYTHON_INSTALL_DIR="/path/to/new/shared/python"
 
 ### update local packege, clean cache; when --reinstall not work as expected
-uv clean cache pkgname
-uv add pkgname
+  uv clean cache pkgname
+  uv add pkgname
